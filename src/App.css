@@ -1,0 +1,23 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+img{
+  width: 140px;
+}
+
+.prod{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.prod > div{
+  width: 250px;
+  border: 1px solid white;
+}
